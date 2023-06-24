@@ -12,13 +12,14 @@ body{
 .header{
     position:relative ;
     background: rgb(216, 58, 58);
-    height: 150px;
+    max-height: 150px;
     display: flex;
     width: 100%;
 }
 .logo{
     float: left;
-    height: 150px;
+    height: 20vw;
+     max-height: 150px;
 }
 .nav a {
     display: none;
@@ -34,7 +35,8 @@ body{
     cursor: pointer;
 }
 .menu span img{
- width: 70px;
+   width: 10vw; 
+ max-width: 70px;
  position: absolute;
 }
 .nav a:hover{
@@ -56,6 +58,7 @@ body{
     display: flex;
 }
 .box button{
+    margin-bottom: 5px;
     background: rgb(101, 107, 12);
     cursor: pointer;
     border-radius: 10px;
